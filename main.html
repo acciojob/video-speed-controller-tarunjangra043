@@ -8,7 +8,7 @@
 <body>
 
   <div class="player">
-    <video class="viewer" src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
+    <video class="player__video viewer" src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
     
     <div class="controls">
       <div class="progress">
@@ -21,8 +21,8 @@
       
       <input type="range" name="playbackSpeed" class="player__slider" min="0.5" max="2" step="0.1" value="1">
       
-      <button data-skip="-10" class="skip">« 10s</button>
-      <button data-skip="25" class="skip">25s »</button>
+      <button data-skip="-10" class="player__button rewind">« 10s</button>
+      <button data-skip="25" class="player__button skip">25s »</button>
     </div>
   </div>
 
